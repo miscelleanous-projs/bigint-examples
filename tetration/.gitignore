@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/bigint
+bigint.so
+bigint.dylib
+bigint.dll
+bigint.a
+bigint.lib
+bigint-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
