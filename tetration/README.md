@@ -1,5 +1,5 @@
 
-# Simple Tetration
+# Tetration
 
 ## Source code
 
