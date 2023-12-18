@@ -1,5 +1,5 @@
 
-# ex-0001
+# Simple Exponentiation
 
 ## Source code
 
