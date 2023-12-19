@@ -5,8 +5,9 @@
 
 ```d
 import std.stdio: writefln;
-import std.bigint : BigInt;
-import std.conv: to;
+import std.bigint: BigInt;
+import std.range: chunks;
+import std.conv: text, to;
 
 BigInt tetration(int base, int height)
 {
@@ -30,9 +31,8 @@ void main()
 
     BigInt result = tetration(BASE, HEIGHT);
 
-    writefln("\nTetration of %d to the power of %d is: \n%s", BASE, HEIGHT, result);
+    writefln("\nTetration of %d to the power of %d is: \n\n%(%s\\\n%)", BASE, HEIGHT, result.text.chunks(80));
 }
-
 ```
 
 ## Result
