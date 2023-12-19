@@ -47,6 +47,6 @@ The Last 120 digits of  the Largest known Mersenne Prime is:
 
 Well, it's left to you as an exercise 😜 Cool it, I'm just kidding.
 
-I've tried 2 approaches sofar but in vain (They all take too much cpu time!!!):
+I've tried 2 approaches sofar but in vain (They all take too much cpu time and likely memory!!!):
   - Converting `BigInt` to `string` and extract the first 120 digits using [toDecimalString](https://dlang.org/phobos/std_bigint.html#.toDecimalString) or [toString](https://dlang.org/phobos/std_bigint.html#.BigInt.toString) in conjunction with `std.format.format`.
   - Taking advantage of the [divMod](https://dlang.org/phobos/std_bigint.html#.divMod) builtin... Namely 1) calculate the remainder when dividing by 10^120, 2) subtract the remainder to get the leading digits and finally 3) divide by 10^(120-1) to get the end result
