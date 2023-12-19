@@ -52,3 +52,5 @@ I've tried 2 approaches sofar but in vain (They all take too much cpu time and l
   - Taking advantage of the [divMod](https://dlang.org/phobos/std_bigint.html#.divMod) builtin... Namely 1) calculate the `remainder` when dividing by 10^120, 2) subtract the remainder to get the `leading digits` and finally 3) divide by 10^(120-1) to get the `end result`
 
 I suspect Brute force approach or similar approache is not the way to go... Maybe finding out generating series/[generating function](https://en.wikipedia.org/wiki/Generating_function) or some [polynomial interpolation](https://en.wikipedia.org/wiki/Polynomial_interpolation) ?!
+
+Contributions welcome ❤️❤️❤️
