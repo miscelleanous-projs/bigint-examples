@@ -1,6 +1,6 @@
 void main()
 {
-    import std.stdio, std.bigint;
+    import std.stdio, std.bigint, std.conv, std.range;
 
-    writeln(9_999.BigInt^^999);
+	writefln("\n%(%s\\\n%)", (9_999.BigInt^^999).text.chunks(80));
 }
