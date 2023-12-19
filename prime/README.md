@@ -45,7 +45,7 @@ The Last 120 digits of  the Largest known Mersenne Prime is:
 
 ## What about the first 120 digits?
 
-Well, it's left to you as an exercise 😜 Cool it, I'm just joke.
+Well, it's left to you as an exercise 😜 Cool it, I'm just kidding.
 
 I've tried 2 approaches sofar but with no succes (take too much cpu time!!!):
   - Converting BigInt to string and extract the first 120 digits using [toDecimalString](https://dlang.org/phobos/std_bigint.html#.toDecimalString)
