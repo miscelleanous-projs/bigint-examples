@@ -54,3 +54,5 @@ I've tried 2 approaches sofar but in vain (They all take too much cpu time and l
 I suspect Brute force approach or similar approache is not the way to go... Maybe finding out generating series/[generating function](https://en.wikipedia.org/wiki/Generating_function) or some [polynomial interpolation](https://en.wikipedia.org/wiki/Polynomial_interpolation) ?!
 
 Contributions welcome ❤️❤️❤️
+
+[Wikipedia Entry](https://en.wikipedia.org/wiki/Largest_known_prime_number)
