@@ -30,7 +30,7 @@ void main()
 
     BigInt result = tetration(BASE, HEIGHT);
 
-    writefln("\nTetration of %d to the power of %d is: %s", BASE, HEIGHT, result);
+    writefln("\nTetration of %d to the power of %d is: \n%s", BASE, HEIGHT, result);
 }
 
 ```
