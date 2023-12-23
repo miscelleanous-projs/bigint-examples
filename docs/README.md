@@ -5,6 +5,6 @@ Handling `Big Integer` as you expected in [D](https://dlang.org/phobos/std_bigin
   - [Simple Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/simple)
   - [Modular Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/modular)
   - [Tetration](https://github.com/miscelleanous-projs/bigint-examples/tree/main/tetration)
-  - [Factorial](https://github.com/miscelleanous-projs/bigint-examples/tree/main/factorial)
+  - [Huge Factorial](https://github.com/miscelleanous-projs/bigint-examples/tree/main/factorial)
   - [Prime number](https://github.com/miscelleanous-projs/bigint-examples/tree/main/prime)
   - [Integer Square root](https://github.com/miscelleanous-projs/bigint-examples/tree/main/isqrt)
