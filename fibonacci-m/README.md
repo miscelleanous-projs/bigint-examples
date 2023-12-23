@@ -12,7 +12,7 @@ import std.range;
 struct Matrix {
     BigInt a, b, c, d;
     
-	// Multiplication
+    // Multiplication
     Matrix opBinary(string op)(Matrix other) if (op == "*") {
         return Matrix(
             a * other.a + b * other.c,
@@ -26,7 +26,7 @@ struct Matrix {
 Matrix matrixPow(Matrix base, BigInt exponent) {
     if (exponent == 0) {
         // Identity matrix
-		return Matrix(1.BigInt, 0.BigInt, 0.BigInt, 1.BigInt);
+        return Matrix(1.BigInt, 0.BigInt, 0.BigInt, 1.BigInt);
     } else if (exponent % 2 == 0) {
         auto halfPow = matrixPow(base, exponent / 2);
         
