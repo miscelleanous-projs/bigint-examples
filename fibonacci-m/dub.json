@@ -1,0 +1,9 @@
+{
+	"authors": [
+		"Lenovo"
+	],
+	"copyright": "Copyright © 2023, Lenovo",
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "matrixexpogpt"
+}
