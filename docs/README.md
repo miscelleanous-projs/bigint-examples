@@ -1,6 +1,6 @@
 # bigint harnessing examples
 
-Handling Big Integer in as you need [D](https://dlang.org/phobos/std_bigint.html)...
+Handling `Big Integer` in as you need [D](https://dlang.org/phobos/std_bigint.html)...
 
   - [Simple Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/simple)
   - [Modular Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/modular)
