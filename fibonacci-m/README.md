@@ -1,5 +1,5 @@
 
-# Fibonacci according to Matrix Exponention method and using Big Integer
+# Fibonacci according to Matrix Exponention method
 
 ## Source code
 
