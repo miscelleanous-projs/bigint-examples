@@ -6,4 +6,4 @@ Harnessing Big Integer in [D](https://dlang.org/phobos/std_bigint.html)...
   - [Modular Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/modular)
   - [Tetration](https://github.com/miscelleanous-projs/bigint-examples/tree/main/tetration)
   - [Factorial](https://github.com/miscelleanous-projs/bigint-examples/tree/main/factorial)
-  - [Largest known prime number](https://github.com/miscelleanous-projs/bigint-examples/tree/main/prime) as of October 2023
+  - [Prime number](https://github.com/miscelleanous-projs/bigint-examples/tree/main/prime)
