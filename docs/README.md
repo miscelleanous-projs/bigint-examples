@@ -1,4 +1,4 @@
-# bigint-examples
+# bigint harnessing examples
 
 Harnessing Big Integer in [D](https://dlang.org/phobos/std_bigint.html)...
 
