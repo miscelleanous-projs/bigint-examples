@@ -7,4 +7,4 @@ Harnessing Big Integer in [D](https://dlang.org/phobos/std_bigint.html)...
   - [Tetration](https://github.com/miscelleanous-projs/bigint-examples/tree/main/tetration)
   - [Factorial](https://github.com/miscelleanous-projs/bigint-examples/tree/main/factorial)
   - [Prime number](https://github.com/miscelleanous-projs/bigint-examples/tree/main/prime)
-  - [Integer Square root]()
+  - [Integer Square root](https://github.com/miscelleanous-projs/bigint-examples/tree/main/isqrt)
