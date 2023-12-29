@@ -1,5 +1,24 @@
 # Sum of Self Powers
 
+## Source code
+
+```d
+import std.stdio : writefln;
+import std.bigint : BigInt;
+import std.range : chunks, iota;
+import std.algorithm: map, sum;
+import std.conv;
+
+void main()
+{
+    const N = 500;
+    
+    auto answer = iota(1, N + 1).map!(i => BigInt(i) ^^ i).sum;
+    
+    writefln("\nSum of %d Self Powers:\n\n%(%s\\\n%)", N, answer.text.chunks(80));
+}
+```
+
 ## Result
 
 ```text
