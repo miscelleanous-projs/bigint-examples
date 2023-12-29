@@ -10,4 +10,4 @@ Handling `Big Integer` as you expected in [D](https://dlang.org/phobos/std_bigin
   - [Integer Square root](https://github.com/miscelleanous-projs/bigint-examples/tree/main/isqrt)
   - [Huge Fibonacci (Matrix exponentiation method)](https://github.com/miscelleanous-projs/bigint-examples/tree/main/fibonacci-m)
   - [Sum of Squares](https://github.com/miscelleanous-projs/bigint-examples/tree/main/sum-of-squares)
-  - [Sum of Self Powers](https://github.com/miscelleanous-projs/bigint-examples/tree/main/sum-of-squares)
+  - [Sum of Self Powers](https://github.com/miscelleanous-projs/bigint-examples/tree/main/self-powers)
