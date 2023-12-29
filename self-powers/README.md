@@ -1,1 +1,1 @@
-
+# Sum of Self Powers
