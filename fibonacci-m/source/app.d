@@ -5,8 +5,8 @@ import std.range;
 
 struct Matrix {
     BigInt a, b, c, d;
-    
-	// Multiplication
+
+    // Multiplication
     Matrix opBinary(string op)(Matrix other) if (op == "*") {
         return Matrix(
             a * other.a + b * other.c,
@@ -15,28 +15,28 @@ struct Matrix {
             c * other.b + d * other.d
         );
     }
-}
 
-Matrix matrixPow(Matrix base, BigInt exponent) {
-    if (exponent == 0) {
-        // Identity matrix
-		return Matrix(1.BigInt, 0.BigInt, 0.BigInt, 1.BigInt);
-    } else if (exponent % 2 == 0) {
-        auto halfPow = matrixPow(base, exponent / 2);
-        
-        return halfPow * halfPow;
-    } else {
-        return base * matrixPow(base, exponent - 1);
+    // Exponentiation
+    Matrix opBinary(string op)(BigInt exponent) if (op == "^^") {
+        if (exponent == 0) {
+            // Identity matrix
+            return Matrix(1.BigInt, 0.BigInt, 0.BigInt, 1.BigInt);
+        } else if (exponent % 2 == 0) {
+            auto halfPow = this ^^ (exponent / 2);
+
+            return halfPow * halfPow;
+        } else {
+            return this * (this ^^ (exponent - 1));
+        }
     }
 }
 
 // Fibonacci function using matrix exponentiation
 BigInt fibonacci(int n) {
     if (n == 0) return 0.BigInt;
-    
-    Matrix base = Matrix(1.BigInt, 1.BigInt, 1.BigInt, 0.BigInt);
-    Matrix result = matrixPow(base, BigInt(n - 1));
-    
+
+    Matrix result = Matrix(1.BigInt, 1.BigInt, 1.BigInt, 0.BigInt) ^^ (BigInt(n - 1));
+
     return result.a;
 }
 
