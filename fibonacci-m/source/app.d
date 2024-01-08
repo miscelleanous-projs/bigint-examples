@@ -1,7 +1,7 @@
 import std.stdio : writefln;
 import std.bigint : BigInt;
-import std.conv;
-import std.range;
+import std.conv: text;
+import std.range: chunks;
 
 struct Matrix {
     BigInt a, b, c, d;
