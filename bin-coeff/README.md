@@ -1,4 +1,4 @@
-# Factorial
+# Binomial Coefficient
 
 ## Source code
 
