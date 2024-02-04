@@ -2,6 +2,7 @@
 
 Handling `Big Integer` as you expected in [D](https://dlang.org/phobos/std_bigint.html)... Enjoy!
 
+  - [Binomial Coefficient]()
   - [Simple Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/simple-exponentiation)
   - [Modular Exponentiation](https://github.com/miscelleanous-projs/bigint-examples/tree/main/modular)
   - [Tetration](https://github.com/miscelleanous-projs/bigint-examples/tree/main/tetration)
